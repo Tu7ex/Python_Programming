@@ -99,8 +99,25 @@ print("")
 print(not True)
 print("")
 #Condicionales
+'''
 edad=int(input("ingrese edad: "))
 if(edad>18):
     print("Mayor de edad")
 else:
     print("Menor de edad")
+'''
+#for
+lista=[10, 20, 30, 40]
+for lis in lista:
+    print(lis)
+for i in range(1, 21):
+    print("Curso python")
+print("")
+personas=["Juan","Ana","Marcelo", "Matias"]
+for i in range(len(lista)):
+    nombre=personas[i]
+    print(nombre,i)
+print("")
+#Enumerate
+for i, nombre in enumerate(personas):
+    print(i, nombre)
